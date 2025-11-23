@@ -3,7 +3,7 @@ import { PricingCategory } from './types';
 
 export const APP_NAME = "Skoczek Suspensions";
 export const ADDRESS = "ul. Mickiewicza 39, 15-213 Białystok";
-export const PHONE = "+48 85 744 49 92";
+export const PHONE = "+48 884 343 148";
 export const EMAIL = "galeriarowerowapl@gmail.com";
 
 // Pełna treść regulaminu

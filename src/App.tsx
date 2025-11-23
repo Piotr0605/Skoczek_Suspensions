@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { User } from './types';
 import { ApiService } from './services/api';
@@ -337,7 +336,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen flex flex-col font-sans bg-white text-gray-900" key="app-reset-v1">
+    <div className="min-h-screen flex flex-col font-sans bg-white text-gray-900">
       <div className="bg-skoczek-primary text-white text-xs py-2 px-4 text-center font-bold tracking-wider">
         DARMOWA WYCENA SERWISU • AUTORYZOWANY PUNKT
       </div>
@@ -533,7 +532,7 @@ const App: React.FC = () => {
                        </div>
                        <div>
                          <h4 className="font-bold text-lg">Adres Serwisu</h4>
-                         <p className="text-gray-400 mt-1 text-sm leading-relaxed">ul. Mickiewicza 39<br/>15-213 Białystok<br/>(Budynek Galerii Rowerowej)</p>
+                         <p className="text-gray-400 mt-1 text-sm leading-relaxed">ul. Mickiewicza 39<br/>15-213 Białystok<br/>(w lokalu Galerii Rowerowej)</p>
                        </div>
                      </div>
                      
